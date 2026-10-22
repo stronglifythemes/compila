@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="builder" content="Stronglify">
+<link rel="icon" type="image/x-icon" href="https://media.stronglify.com/295/favicon-1792694438.svg">
+<title>Notas para aprender construyendo | Compila</title>
+<meta name="description" content="Ideas prácticas sobre desarrollo web, proyectos y el camino hacia tu primer trabajo en tecnología.">
+<meta name="robots" content="index">
+<link rel="canonical" href="https://stronglifythemes.github.io/compila/"><style>
+html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,[type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}
+fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}img{max-width:100%;height:auto}
+</style><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@400;500;600;700;800&family=Funnel+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://media.stronglify.com/tailwind-play-3.4.17.js"></script>
+<style>
+:root{--paper:#f2f5f8;--ink:#111827;--muted:#334155;--accent:#315bff;--accent-dark:#2345c9;--mint:#00caa5;--pale:#dce5ff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:'Funnel Sans',sans-serif;line-height:1.55}
+h1,h2,h3,.display{font-family:'Funnel Display',sans-serif;letter-spacing:-.05em;font-weight:800}
+a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+.shell{max-width:1180px;margin-inline:auto;padding-inline:clamp(20px,5vw,64px)}
+.reading{max-width:760px;margin-inline:auto;padding-inline:24px}
+.navlink{display:inline-block;border-bottom:2px solid transparent}
+.navlink:hover{color:var(--accent-dark);border-bottom-color:currentColor}
+.action{display:inline-flex;align-items:center;justify-content:center;background:var(--accent);color:#fff;padding:14px 22px;border:3px solid var(--ink);border-radius:0;box-shadow:6px 6px 0 0 var(--ink);font-weight:800;transition:transform .15s,box-shadow .15s,background .15s}
+.action:hover{background:var(--accent-dark);transform:translate(3px,3px);box-shadow:3px 3px 0 0 var(--ink)}
+.action:active{transform:translate(6px,6px);box-shadow:0 0 0 0 var(--ink)}
+.action-dark{background:var(--ink);color:#fff;box-shadow:6px 6px 0 0 #fff}
+.action-dark:hover{background:#263449;box-shadow:3px 3px 0 0 #fff}
+.action-dark:active{box-shadow:0 0 0 0 #fff}
+.media{width:100%;object-fit:cover;border:3px solid var(--ink);border-radius:0;box-shadow:8px 8px 0 0 var(--ink)}
+.prose p{margin:0 0 1.1em;max-width:65ch}
+.prose h2{font-size:clamp(28px,4vw,42px);line-height:1.1;margin:1.5em 0 .4em}
+.prose h3{font-size:25px;margin:1.3em 0 .3em}
+.prose ul,.prose ol{padding-left:1.4em;margin:0 0 1.3em}
+.prose li{margin:.3em 0}
+.prose a{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:4px;color:var(--accent-dark);font-weight:700}
+.prose blockquote{border-left:4px solid var(--ink);background:var(--pale);padding:18px 22px;font-size:24px;font-family:'Funnel Display',sans-serif}
+.prose img{max-width:100%;height:auto;border:3px solid var(--ink);border-radius:0;box-shadow:6px 6px 0 0 var(--ink)}
+.prose figcaption{font-size:14px;color:var(--muted);margin-top:14px}
+.nav-open{display:flex!important}
+@media(max-width:767px){.desktop-nav{display:none}.mobile-nav{display:none;position:absolute;top:100%;left:0;right:0;background:var(--paper);padding:18px 24px 24px;flex-direction:column;gap:16px;border-bottom:3px solid var(--ink);box-shadow:0 6px 0 0 var(--ink)}}
+@media(min-width:768px){.mobile-nav,.menu-button{display:none!important}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+</style>
+<script>document.addEventListener("DOMContentLoaded",()=>{const b=document.querySelector(".menu-button"),n=document.querySelector(".mobile-nav");if(b&&n)b.addEventListener("click",()=>{const o=n.classList.toggle("nav-open");b.setAttribute("aria-expanded",String(o))})});</script></head>
+<body>
+  <header class="relative z-10 border-b-[3px] border-[#111827] bg-[#f2f5f8]"><div class="shell flex min-h-[82px] items-center justify-between gap-6"><a href="./" aria-label="Inicio"><img src="https://placehold.co/190x48" alt="Compila" class="h-11 w-auto"></a><nav class="desktop-nav flex items-center gap-7 text-sm font-bold" aria-label="Navegación principal"><a class="navlink" href="./">Inicio</a><a class="navlink" href="./page">Nosotros</a><a class="navlink" href="./blog">Blog</a></nav><button type="button" class="menu-button border-[3px] border-[#111827] bg-[#00caa5] px-3 py-2 text-sm font-extrabold shadow-[4px_4px_0_0_#111827] transition-[transform,box-shadow] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[2px_2px_0_0_#111827] active:translate-x-[4px] active:translate-y-[4px] active:shadow-none" aria-label="Abrir menú" aria-expanded="false">Menú</button></div><nav class="mobile-nav" aria-label="Navegación móvil"><a class="navlink" href="./">Inicio</a><a class="navlink" href="./page">Nosotros</a><a class="navlink" href="./blog">Blog</a></nav></header>
+
+<main class="shell py-16 md:py-24"><header><h1 class="text-[clamp(46px,6vw,76px)] font-extrabold leading-[1.02]">Notas para aprender construyendo</h1><p class="mt-5 max-w-[60ch] text-xl text-[#334155]">Ideas prácticas sobre desarrollo web, proyectos y el camino hacia tu primer trabajo en tecnología.</p></header><div class="mt-14 grid gap-10 md:grid-cols-2 lg:grid-cols-3"><article class="border-[3px] border-[#111827] bg-white p-6 shadow-[7px_7px_0_0_#111827]"><a href="./article"><img src="https://media.stronglify.com/385/compila-04-1792614401.jpg" alt="Imagen de artículo sobre programación" class="media aspect-[3/2]"></a><h2 class="mt-7 text-3xl font-extrabold leading-tight"><a href="./article">Cómo construir tu primer portafolio</a></h2><p class="mt-3 text-[#334155]">Selecciona proyectos que muestren decisiones y evolución.</p><a class="mt-5 inline-block border-b-[3px] border-[#315bff] font-extrabold text-[#2345c9] hover:border-[#111827]" href="./article">Leer artículo →</a></article><article class="border-[3px] border-[#111827] bg-white p-6 shadow-[7px_7px_0_0_#111827]"><a href="./article"><img src="https://media.stronglify.com/385/compila-05-1792614404.jpg" alt="Imagen de artículo sobre programación" class="media aspect-[3/2]"></a><h2 class="mt-7 text-3xl font-extrabold leading-tight"><a href="./article">Qué practicar antes de tu primer proyecto</a></h2><p class="mt-3 text-[#334155]">Una guía breve para pasar de ejercicios a una aplicación propia.</p><a class="mt-5 inline-block border-b-[3px] border-[#315bff] font-extrabold text-[#2345c9] hover:border-[#111827]" href="./article">Leer artículo →</a></article><article class="border-[3px] border-[#111827] bg-white p-6 shadow-[7px_7px_0_0_#111827]"><a href="./article"><img src="https://media.stronglify.com/385/compila-06-1792614406.jpg" alt="Imagen de artículo sobre programación" class="media aspect-[3/2]"></a><h2 class="mt-7 text-3xl font-extrabold leading-tight"><a href="./article">Aprender a programar acompañado</a></h2><p class="mt-3 text-[#334155]">Por qué revisar código y compartir dudas acelera el aprendizaje.</p><a class="mt-5 inline-block border-b-[3px] border-[#315bff] font-extrabold text-[#2345c9] hover:border-[#111827]" href="./article">Leer artículo →</a></article></div></main>
+<footer class="border-t-[3px] border-[#111827] bg-[#111827] text-white"><div class="shell grid gap-10 py-16 md:grid-cols-3"><div><h2 class="text-2xl font-extrabold">Compila</h2><p class="mt-3 max-w-xs text-[#e2e8f0]">Aprende desarrollo web en Medellín con proyectos y acompañamiento.</p></div><div><h3 class="text-lg font-extrabold">Horario</h3><p class="mt-3 text-[#e2e8f0]">Lunes a viernes, 9:00 a. m. a 6:00 p. m.</p></div><div><h3 class="text-lg font-extrabold">Contacto</h3><p class="mt-3 text-[#e2e8f0]">Ciudad del Río, Medellín</p><p class="mt-1 text-[#e2e8f0]">hola@compila.co</p></div></div></footer>
+</body>
+</html>
