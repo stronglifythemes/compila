@@ -4,54 +4,93 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <meta name="builder" content="Stronglify">
-<link rel="icon" type="image/x-icon" href="https://media.stronglify.com/295/favicon-1792694438.svg">
-<title>Cómo construir tu primer portafolio de desarrollo web | Compila</title>
-<meta name="description" content="Un portafolio útil muestra cómo piensas, qué construiste y qué aprendiste en el proceso.">
+<link rel="icon" type="image/x-icon" href="https://media.stronglify.com/295/favicon-1793292657.svg">
+<title>Cómo armar tu primer portafolio de desarrollo web | Compila</title>
+<meta name="description" content="Un buen portafolio muestra cómo piensas, no solo qué herramientas conoces.">
 <meta name="robots" content="index">
 <link rel="canonical" href="https://stronglifythemes.github.io/compila/"><style>
 html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,[type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}
 fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}img{max-width:100%;height:auto}
 </style><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@400;500;600;700;800&family=Funnel+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@500;600;700&family=Funnel+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script src="https://media.stronglify.com/tailwind-play-3.4.17.js"></script>
-<style>
-:root{--paper:#f2f5f8;--ink:#111827;--muted:#334155;--accent:#315bff;--accent-dark:#2345c9;--mint:#00caa5;--pale:#dce5ff}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;background:var(--paper);color:var(--ink);font-family:'Funnel Sans',sans-serif;line-height:1.55}
-h1,h2,h3,.display{font-family:'Funnel Display',sans-serif;letter-spacing:-.05em;font-weight:800}
-a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
-.shell{max-width:1180px;margin-inline:auto;padding-inline:clamp(20px,5vw,64px)}
-.reading{max-width:760px;margin-inline:auto;padding-inline:24px}
-.navlink{display:inline-block;border-bottom:2px solid transparent}
-.navlink:hover{color:var(--accent-dark);border-bottom-color:currentColor}
-.action{display:inline-flex;align-items:center;justify-content:center;background:var(--accent);color:#fff;padding:14px 22px;border:3px solid var(--ink);border-radius:0;box-shadow:6px 6px 0 0 var(--ink);font-weight:800;transition:transform .15s,box-shadow .15s,background .15s}
-.action:hover{background:var(--accent-dark);transform:translate(3px,3px);box-shadow:3px 3px 0 0 var(--ink)}
-.action:active{transform:translate(6px,6px);box-shadow:0 0 0 0 var(--ink)}
-.action-dark{background:var(--ink);color:#fff;box-shadow:6px 6px 0 0 #fff}
-.action-dark:hover{background:#263449;box-shadow:3px 3px 0 0 #fff}
-.action-dark:active{box-shadow:0 0 0 0 #fff}
-.media{width:100%;object-fit:cover;border:3px solid var(--ink);border-radius:0;box-shadow:8px 8px 0 0 var(--ink)}
-.prose p{margin:0 0 1.1em;max-width:65ch}
-.prose h2{font-size:clamp(28px,4vw,42px);line-height:1.1;margin:1.5em 0 .4em}
-.prose h3{font-size:25px;margin:1.3em 0 .3em}
-.prose ul,.prose ol{padding-left:1.4em;margin:0 0 1.3em}
-.prose li{margin:.3em 0}
-.prose a{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:4px;color:var(--accent-dark);font-weight:700}
-.prose blockquote{border-left:4px solid var(--ink);background:var(--pale);padding:18px 22px;font-size:24px;font-family:'Funnel Display',sans-serif}
-.prose img{max-width:100%;height:auto;border:3px solid var(--ink);border-radius:0;box-shadow:6px 6px 0 0 var(--ink)}
-.prose figcaption{font-size:14px;color:var(--muted);margin-top:14px}
-.nav-open{display:flex!important}
-@media(max-width:767px){.desktop-nav{display:none}.mobile-nav{display:none;position:absolute;top:100%;left:0;right:0;background:var(--paper);padding:18px 24px 24px;flex-direction:column;gap:16px;border-bottom:3px solid var(--ink);box-shadow:0 6px 0 0 var(--ink)}}
-@media(min-width:768px){.mobile-nav,.menu-button{display:none!important}}
-@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
-</style>
-<script>document.addEventListener("DOMContentLoaded",()=>{const b=document.querySelector(".menu-button"),n=document.querySelector(".mobile-nav");if(b&&n)b.addEventListener("click",()=>{const o=n.classList.toggle("nav-open");b.setAttribute("aria-expanded",String(o))})});</script></head>
+<script>tailwind.config={theme:{extend:{colors:{ink:"#111827",paper:"#f2f5f8",muted:"#334155",soft:"#475569",line:"#d5dde7",cobalt:{DEFAULT:"#315bff",dark:"#2345c9"},mint:"#00caa5",pale:"#dce5ff"},fontFamily:{display:['"Funnel Display"',"sans-serif"],sans:['"Funnel Sans"',"sans-serif"],mono:["ui-monospace","SFMono-Regular","Menlo","Consolas","monospace"]}}}};</script>
+<style>html{scroll-behavior:smooth;scroll-padding-top:84px}body{margin:0;background:#f2f5f8;color:#111827;font-family:'Funnel Sans',sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased}h1,h2,h3{font-family:'Funnel Display',sans-serif;font-weight:600;letter-spacing:-.03em;text-wrap:balance}a:focus-visible,button:focus-visible{outline:2px solid #315bff;outline-offset:3px}.shell{max-width:1200px;margin-inline:auto;padding-inline:clamp(20px,4.5vw,56px)}.reading{max-width:720px;margin-inline:auto;padding-inline:20px}.btn,.btn-line{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:.8rem 1.35rem;font-size:15px;font-weight:600;line-height:1.2;white-space:nowrap;transition:background-color .2s,border-color .2s,transform .2s}.btn{background:#315bff;color:#fff}.btn:hover{background:#2345c9}.btn-line{border:1px solid #94a3b8;color:#111827;padding:calc(.8rem - 1px) calc(1.35rem - 1px)}.btn-line:hover{border-color:#111827;background:#fff}.btn:active,.btn-line:active{transform:scale(.98)}.navlink{border-radius:999px;padding:.45rem .85rem;color:#334155;transition:background-color .2s,color .2s}.navlink:hover{background:#dce5ff;color:#111827}.link{font-weight:600;color:#2345c9;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px;transition:color .2s}.link:hover{color:#111827}.chip{display:inline-flex;align-items:center;border-radius:999px;border:1px solid #d5dde7;background:#fff;padding:.3rem .8rem;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12px;color:#334155;transition:border-color .2s,color .2s}a.chip:hover{border-color:#315bff;color:#2345c9}.cursor{display:inline-block;width:.6em;height:1.15em;vertical-align:-.2em;background:#00caa5;animation:blink 1.1s steps(1) infinite}@keyframes blink{50%{opacity:0}}.texto{font-size:18px;line-height:1.7}.texto p{margin:0 0 1.15em}.texto h2{font-size:clamp(28px,3.6vw,38px);line-height:1.1;margin:1.6em 0 .5em}.texto h3{font-size:24px;line-height:1.2;margin:1.4em 0 .4em}.texto h2:first-child,.texto h3:first-child{margin-top:0}.texto ul,.texto ol{list-style:disc;padding-left:1.3em;margin:0 0 1.3em}.texto li{margin:.35em 0}.texto li::marker{color:#315bff}.texto a{color:#2345c9;font-weight:600;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}.texto a:hover{color:#111827}.texto blockquote{margin:2em 0;border-radius:16px;background:#dce5ff;padding:1.1em 1.4em;font-family:'Funnel Display',sans-serif;font-size:clamp(22px,2.6vw,28px);line-height:1.3;letter-spacing:-.02em}.texto blockquote p{margin:0}.texto figure{margin:2.2em 0}.texto img{display:block;width:100%;height:auto;border-radius:12px}.texto figcaption{margin-top:.75em;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px;color:#475569}@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}</style>
+<script>document.addEventListener("DOMContentLoaded",()=>{const b=document.querySelector(".menu-button"),n=document.querySelector(".mobile-nav");if(b&&n)b.addEventListener("click",()=>{const h=n.classList.toggle("hidden");b.setAttribute("aria-expanded",String(!h))})});</script></head>
 <body>
-  <header class="relative z-10 border-b-[3px] border-[#111827] bg-[#f2f5f8]"><div class="shell flex min-h-[82px] items-center justify-between gap-6"><a href="./" aria-label="Inicio"><img src="https://placehold.co/190x48" alt="Compila" class="h-11 w-auto"></a><nav class="desktop-nav flex items-center gap-7 text-sm font-bold" aria-label="Navegación principal"><a class="navlink" href="./">Inicio</a><a class="navlink" href="./page">Nosotros</a><a class="navlink" href="./blog">Blog</a></nav><button type="button" class="menu-button border-[3px] border-[#111827] bg-[#00caa5] px-3 py-2 text-sm font-extrabold shadow-[4px_4px_0_0_#111827] transition-[transform,box-shadow] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[2px_2px_0_0_#111827] active:translate-x-[4px] active:translate-y-[4px] active:shadow-none" aria-label="Abrir menú" aria-expanded="false">Menú</button></div><nav class="mobile-nav" aria-label="Navegación móvil"><a class="navlink" href="./">Inicio</a><a class="navlink" href="./page">Nosotros</a><a class="navlink" href="./blog">Blog</a></nav></header>
+  <header class="sticky top-0 z-30 bg-paper/90 backdrop-blur">
+  <div class="shell flex h-16 items-center gap-4">
+    <a href="./" aria-label="Inicio" class="shrink-0"><img src="https://placehold.co/144x36" alt="Compila" class="h-9 w-auto"></a>
+    <nav class="ml-auto hidden items-center gap-1 font-mono text-[13px] md:flex" aria-label="Navegación principal">
+      
+      <a class="navlink" href="./">Inicio</a>
+      
+      <a class="navlink" href="./page">Nosotros</a>
+      
+      <a class="navlink" href="./blog">Blog</a>
+      
+    </nav>
+    <a class="btn hidden sm:ml-auto sm:inline-flex md:ml-3" href="./#admisiones">Admisiones</a>
+    <button type="button" class="menu-button ml-auto rounded-full border border-line bg-white px-4 py-2 font-mono text-[13px] transition-colors hover:border-ink sm:ml-2 md:hidden" aria-label="Abrir menú" aria-expanded="false">Menú</button>
+  </div>
+  <nav class="mobile-nav hidden bg-paper md:hidden" aria-label="Navegación móvil">
+    <div class="shell flex flex-col py-2 font-mono text-sm">
+      
+      <a class="py-3" href="./">Inicio</a>
+      
+      <a class="py-3" href="./page">Nosotros</a>
+      
+      <a class="py-3" href="./blog">Blog</a>
+      
+    </div>
+  </nav>
+</header>
+<main class="pb-24">
+  <article>
+    <header class="reading pt-14 md:pt-20">
+      <a href="./blog" class="chip">Portafolio</a>
+      <h1 class="mt-6 font-display text-[clamp(36px,5vw,60px)] font-semibold leading-[1.02] tracking-[-0.035em]">Cómo armar tu primer portafolio de desarrollo web</h1>
+      <p class="mt-5 text-xl text-muted">Un buen portafolio muestra cómo piensas, no solo qué herramientas conoces.</p>
+    </header>
 
-<main class="reading py-16 md:py-24"><article><header><h1 class="text-[clamp(42px,6vw,70px)] font-extrabold leading-[1.02]">Cómo construir tu primer portafolio de desarrollo web</h1><p class="mt-6 text-xl text-[#334155]">Un portafolio útil muestra cómo piensas, qué construiste y qué aprendiste en el proceso.</p></header><img src="https://media.stronglify.com/385/compila-02-1792614396.jpg" alt="Portátil con un proyecto de código abierto" class="media mt-10 aspect-video"><div class="prose mt-10 text-lg"><p>Empieza con una aplicación pequeña que resuelva un problema concreto. Define qué hará, dibuja las pantallas y construye una primera versión que puedas probar.</p><h2>Explica tus decisiones</h2><p>En cada proyecto cuenta qué problema encontraste, qué herramientas elegiste y cómo mejoró la versión final. Un repositorio claro vale más que una lista extensa de tecnologías.</p><ul><li>Incluye instrucciones para ejecutar el proyecto.</li><li>Describe el reto técnico principal.</li><li>Muestra una captura del resultado.</li></ul><h2>Mejora con comentarios</h2><p>Comparte el trabajo con otra persona, escucha dónde se confunde y ajusta. Ese ciclo de construir, mostrar y corregir también forma parte del oficio.</p><figure><img src="https://media.stronglify.com/385/compila-03-1792614398.jpg" alt="Equipo revisando un proyecto de programación"><figcaption>Revisar el código con otras personas ayuda a avanzar.</figcaption></figure><p>Si quieres ver cómo acompañamos este proceso, visita <a href="./page">nuestra ruta de aprendizaje</a>.</p></div></article><a class="mt-12 inline-block border-b-[3px] border-[#315bff] font-extrabold text-[#2345c9] hover:border-[#111827]" href="./blog">Ver todas las notas →</a></main>
-<footer class="border-t-[3px] border-[#111827] bg-[#111827] text-white"><div class="shell grid gap-10 py-16 md:grid-cols-3"><div><h2 class="text-2xl font-extrabold">Compila</h2><p class="mt-3 max-w-xs text-[#e2e8f0]">Aprende desarrollo web en Medellín con proyectos y acompañamiento.</p></div><div><h3 class="text-lg font-extrabold">Horario</h3><p class="mt-3 text-[#e2e8f0]">Lunes a viernes, 9:00 a. m. a 6:00 p. m.</p></div><div><h3 class="text-lg font-extrabold">Contacto</h3><p class="mt-3 text-[#e2e8f0]">Ciudad del Río, Medellín</p><p class="mt-1 text-[#e2e8f0]">hola@compila.co</p></div></div></footer>
-</body>
+    <div class="mx-auto mt-10 max-w-[1040px] px-5">
+      <img src="https://media.stronglify.com/385/compila-02-1792614396.jpg" alt="Estudiante revisando su portafolio en un portátil" width="1600" height="900" class="aspect-video h-auto w-full rounded-2xl object-cover">
+    </div>
+
+    <div class="texto reading mt-12"><p>Quien revisa tu portafolio tiene pocos minutos. Necesita ver rápido qué construiste, para quién y qué decisiones tomaste.</p><p>Estos son los criterios que usamos con cada cohorte. Si quieres saber cómo acompañamos el proceso, visita <a href="./page">nuestra página</a>.</p><h2>Empieza por un problema real</h2><p>Antes de escribir código, responde tres preguntas sobre el proyecto:</p><ul><li>A quién le sirve.</li><li>Qué problema le resuelve.</li><li>Cómo sabes que funciona.</li></ul><h3>Escoge pocos proyectos</h3><p>Tres proyectos bien explicados pesan más que diez ejercicios sueltos. Muestra primero el más completo.</p><blockquote><p>Un repositorio claro dice más que una lista de tecnologías.</p></blockquote><figure><img src="https://media.stronglify.com/385/compila-03-1792614398.jpg" alt="Mentor revisando código con dos estudiantes" width="1600" height="900"><figcaption>La revisión de código semanal ayuda a pulir cada proyecto.</figcaption></figure><h2>Explica cada proyecto</h2><p>En el README de cada proyecto deja claro:</p><ul><li>Qué hace y cómo se ejecuta.</li><li>Cuál fue el reto técnico principal.</li><li>Qué mejorarías con más tiempo.</li></ul><p>Pide a alguien más que lo revise y ajusta lo que no se entienda. Ese ciclo también es parte del oficio.</p></div>
+  </article>
+
+  <div class="reading mt-16">
+    <p><a class="link" href="./blog">Ver todas las notas →</a></p>
+  </div>
+</main>
+<footer class="bg-white">
+  <div class="shell grid gap-10 py-14 lg:grid-cols-12">
+    <div class="lg:col-span-4">
+      <p class="font-display text-3xl font-semibold tracking-[-0.03em]">Compila</p>
+      <p class="mt-3 max-w-[34ch] text-muted">Bootcamp de desarrollo web en Medellín, con clases de noche y proyectos reales.</p>
+    </div>
+    <dl class="grid gap-x-10 gap-y-6 sm:grid-cols-2 lg:col-span-8 lg:grid-cols-4">
+      <div><dt class="font-mono text-xs text-soft">Dirección</dt><dd class="mt-1.5">Ciudad del Río, Medellín</dd></div>
+      <div><dt class="font-mono text-xs text-soft">Atención</dt><dd class="mt-1.5">Lunes a viernes, 9:00 a. m. a 6:00 p. m.</dd></div>
+      <div><dt class="font-mono text-xs text-soft">Teléfono</dt><dd class="mt-1.5"><a class="transition-colors hover:text-cobalt-dark" href="tel:3000000000">300 000 0000</a></dd></div>
+      <div><dt class="font-mono text-xs text-soft">Correo</dt><dd class="mt-1.5">tucorreoaqui</dd></div>
+    </dl>
+  </div>
+  <div class="bg-ink text-[#cbd5e1]">
+    <div class="shell flex flex-wrap items-center justify-between gap-x-6 gap-y-2 py-3 font-mono text-xs">
+      <nav class="flex flex-wrap gap-x-5 gap-y-1" aria-label="Navegación del pie">
+        
+        <a class="transition-colors hover:text-white" href="./">Inicio</a>
+        
+        <a class="transition-colors hover:text-white" href="./page">Nosotros</a>
+        
+        <a class="transition-colors hover:text-white" href="./blog">Blog</a>
+        
+      </nav>
+      <p>© Compila, Medellín</p>
+    </div>
+  </div>
+</footer></body>
 </html>
